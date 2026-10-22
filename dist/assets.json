@@ -1,0 +1,93 @@
+{
+  "cocktails": {
+    "imgRectangle": "assets/05164ae1-f414-4cf7-bcc5-80cf57253d1c.webp",
+    "imgRectangle2": "assets/e10220e9-30be-48c2-be06-b0c84e2aa039.webp",
+    "imgRectangle4": "assets/2e2b75ab-40f2-4fc9-965d-d62ef7eb3bc1.webp",
+    "imgVector": "assets/726271f7-092f-497e-89c6-ff6c347fa0bd.svg",
+    "imgGroup": "assets/8e2a4df2-2e50-442b-ada2-b02f5d990f9d.svg",
+    "imgVector1": "assets/cd257cab-bfcc-46a7-9775-ccf9c862e2c3.svg",
+    "imgVector2": "assets/3cf0f1ce-2670-40a4-bd91-8e93be1611f7.svg",
+    "imgVector3": "assets/2cc026c5-dab0-4c21-b4db-ab14f95c55c3.svg",
+    "imgVector4": "assets/6767f9c2-751e-49d5-866c-4d466ecdf389.svg",
+    "imgVector5": "assets/4fd3958a-f18e-4328-a170-4ac5e2496bcc.svg",
+    "imgVector6": "assets/2542327c-034d-4976-816a-e1d6f4b6a292.svg",
+    "imgVector7": "assets/079a7304-c712-4d11-983d-fa628117a962.svg",
+    "imgVector8": "assets/4dc78775-87d8-4102-8771-1b82b8db9db0.svg",
+    "imgVector9": "assets/dbdab082-e498-4b81-bcd1-229f3926b111.svg",
+    "imgVector10": "assets/5c9d29e4-a0f5-48ae-80a5-11cfda9f66f7.svg",
+    "imgVector11": "assets/54444da0-0fbe-4e88-9921-fee8e9c147a0.svg",
+    "imgVector12": "assets/afe814e8-5bb9-4f3b-a02c-04d8813c281e.svg",
+    "imgVector13": "assets/88194a44-ae7f-4d0e-a391-901d6172bbc0.svg",
+    "imgVector14": "assets/ae2615df-cee2-453a-93a7-f330875e8e7a.svg",
+    "imgVector15": "assets/2e7c0eee-2c03-4500-a9be-06b4dc7fe7cc.svg",
+    "imgVector16": "assets/95368492-2b62-40be-ac77-afcc9bec0ea9.svg",
+    "imgVector17": "assets/5169d936-1f2b-4465-887f-a19ef666cde3.svg",
+    "imgVector18": "assets/f59daaf7-df8c-471d-95f4-a5c56ef6846e.svg",
+    "imgVector19": "assets/33fc7999-10a7-4c82-b83a-971638aff0d3.svg",
+    "imgVector20": "assets/d54fa41c-3abc-495c-b6cb-4c88a103a80d.svg",
+    "imgRectangle1": "assets/0319fd78-d307-40a3-ba73-1ce986726c71.svg",
+    "imgRectangle3": "assets/5e5f3669-bcad-4dad-aab5-8fd0e1e14461.svg"
+  },
+  "location": {
+    "imgCapturaDePantalla20261019ALaS115154AM1": "assets/522afa14-fc04-4c74-bd9c-659f488998f0.webp",
+    "imgEllipse": "assets/98e2c192-dffa-436e-9c70-ec842c203195.svg"
+  },
+  "shelf": {
+    "imgInterior16X9RepisaAperolC01942": "assets/9cbcfc2b-c91f-4c6c-8fdc-470f7d40f679.webp"
+  },
+  "contactHero": {
+    "imgFotoIlFuogoPizza": "assets/e913d704-9a9d-4eeb-9c6c-c837358c3ddc.webp",
+    "imgGroup": "assets/bb53703e-5d00-4fa2-972b-191ca1c9ba49.svg"
+  },
+  "tienda": {
+    "imgBenditoMockupFreeTShirt013": "assets/d084b028-ec3a-404c-86b6-a92600106bd1.webp",
+    "imgBenditoMockupCccFreeTShirt013": "assets/12357e5d-c919-4776-9dcc-72731d923e9c.webp",
+    "imgBenditoMockupMbFreeTShirt2": "assets/1bc03aeb-2eea-49b9-a90d-be57eaf12c58.webp",
+    "imgBenditoMockupNFreeTShirt3": "assets/9b4689ad-4dfc-4001-a7ba-0d7c7ea229ec.webp",
+    "imgChefEnCocinaComercialConUniformeDeMarca1": "assets/e81f246a-734e-43d6-8222-11a04c6650d0.webp",
+    "imgTexto": "assets/5e014c20-3ca1-46eb-bcba-671665f4a483.svg",
+    "imgLayer1": "assets/cf429771-1da2-46f1-af9d-84e087ce3fdb.svg"
+  },
+  "room": {
+    "imgSalonMuralMesaC02811": "assets/b3da6adc-9dbe-4cee-a832-745fd281c6a2.webp"
+  },
+  "bar": {
+    "imgBarraBarman2C02901": "assets/d2ea7548-2420-4bd4-b86a-2ce6ca723956.webp"
+  },
+  "drinkSection": {
+    "imgGroup": "assets/944c9adf-a8bb-4d86-9b69-38f0812330b1.svg"
+  },
+  "homeDesign": {
+    "imgFotoIlFuogoHoodie": "assets/4124536c-ce76-4a41-8df1-fb6203c7633a.webp",
+    "imgBenditoMockupMbFreeTShirt4": "assets/f86f74ed-e828-489d-9b5a-62836deb122a.webp",
+    "imgChefEnCocinaComercialConUniformeDeMarca1": "assets/d11ea580-05ad-4f18-bb3a-6af60edf5db6.webp",
+    "imgO7A78001": "assets/aace3239-f4ba-4d30-acdf-02af3ab28189.webp",
+    "imgFotoIlFuogoArancini": "assets/faa1eebb-d824-4e43-9eba-ec6e75ec8310.webp",
+    "imgFotoIlFuogoPizza3": "assets/3877f7ef-9597-42c4-9046-f14058297483.webp",
+    "imgO7A77291": "assets/71b033ee-7f10-4e89-8f75-f6f36c8ec491.webp",
+    "imgO7A77501": "assets/7b5d86e3-a266-4631-a864-0d7d265c4f1d.webp",
+    "imgO7A76831": "assets/a9804f61-1dff-45f7-9242-5296ebdd2cf0.webp",
+    "img41": "assets/da0f0aa3-9c53-441e-80b6-2d9ae263bf16.webp",
+    "imgRectangle": "assets/brand/textos-manuscrito-inicio-rectangle.svg",
+    "imgRectangle1": "assets/brand/textos-manuscrito-inicio-texto1.svg",
+    "imgAranciniO7A77741": "assets/bcf5b483-94a0-4f9d-9611-3569350b8014.webp",
+    "imgHf20260728195911D1421A2CB4Ae49Db9A95D6Fe9748Bd7A1": "assets/ce339636-d955-41c7-8ddc-eea75e9ad346.webp",
+    "img9C752C4C974D48Bf8A97F16Ef19F0666202610081": "assets/94be32f3-70db-442c-9f84-a285063dd817.webp",
+    "img0F480A14Bb8A42E5907E5C97F6Ab6931202610081": "assets/723373bb-549d-44a5-90fc-e136fff9aff2.webp",
+    "imgHf20260728234258F313Bb897Fbc471FAc8C68A147Cc28D21": "assets/a93e70f1-cc24-4021-a90e-70e0797cfc2e.webp",
+    "imgF6223E16Be0143F9B97FC16Df1C22B72202610081": "assets/90719429-6c33-4cac-b268-2c0b88d3c9a3.webp",
+    "imgTexto": "assets/026e1549-2512-430b-a7d5-d9bcc5fc2cdd.svg",
+    "imgLayer1": "assets/2aa7bb51-e167-4113-bc69-aa92df1ecd2d.svg",
+    "imgArrow6": "assets/4cd6ffc6-d90a-44a4-92b7-5dc68670021b.svg",
+    "imgGroup": "assets/a0c2fa26-cd1e-4ba6-8a7e-35f6101cdfe4.svg",
+    "imgGroup1": "assets/ee6627e7-0e41-4bb9-8a4c-5e71237ca852.svg",
+    "imgGroup2": "assets/06783e01-d35b-4ed6-a992-bf15e8e709a5.svg",
+    "imgGroup3": "assets/79acd6ab-94e7-4970-affb-f9480b2e328c.svg",
+    "imgEllipse1": "assets/11eaa08d-edcc-422a-bd4a-5ec18b607649.svg",
+    "imgVector14": "assets/a34adb3e-36ba-4c4b-b0d7-95dfeec98ecc.svg",
+    "imgGroup5": "assets/brand/textos-manuscrito-inicio-group-5.svg",
+    "imgGroup4": "assets/brand/textos-manuscrito-inicio-group-4.svg",
+    "imgGroup6": "assets/brand/textos-manuscrito-inicio-group-3.svg",
+    "imgGroup7": "assets/brand/textos-manuscrito-inicio-group-2.svg"
+  }
+}

@@ -1,0 +1,568 @@
+{
+  "files": [
+    {
+      "path": "app.js",
+      "sha256": "f6856156cb2f3e791aae608ac8f9c9fe9889ddfd684c08504262eb5c9ccfdd92"
+    },
+    {
+      "path": "assets/026e1549-2512-430b-a7d5-d9bcc5fc2cdd.svg",
+      "sha256": "eceda5b93d73171ed52a9999ee1f44d5673b51e3a7338879e11033ef96f3776b"
+    },
+    {
+      "path": "assets/0319fd78-d307-40a3-ba73-1ce986726c71.svg",
+      "sha256": "7a646f45e34d91dd38e6573bd844cff672f712374ac9710c76bd92958a40151b"
+    },
+    {
+      "path": "assets/05164ae1-f414-4cf7-bcc5-80cf57253d1c.webp",
+      "sha256": "2aaf27de85948cc9b2543a99eee828cfd1ea585861cdccecdbcf64d405ba93cc"
+    },
+    {
+      "path": "assets/06783e01-d35b-4ed6-a992-bf15e8e709a5.svg",
+      "sha256": "2fabdc0ff334d8f46c0584d80a7bda8711f9b394a1ecb78e2be6b242baf8312c"
+    },
+    {
+      "path": "assets/079a7304-c712-4d11-983d-fa628117a962.svg",
+      "sha256": "13c4cfc31578b92b7791994a00047641f9bec531d52f73b077e14bda0a85b92e"
+    },
+    {
+      "path": "assets/11eaa08d-edcc-422a-bd4a-5ec18b607649.svg",
+      "sha256": "25fc5035d0514ae79ab999f131892a57c6f0749ea944a9bd9da4fb64c36cd3fe"
+    },
+    {
+      "path": "assets/12357e5d-c919-4776-9dcc-72731d923e9c.webp",
+      "sha256": "618b4e8e6fdc061fda6e382ef3862a1a00530dbac4421ff9cdbe2b3c9233b3d6"
+    },
+    {
+      "path": "assets/1bc03aeb-2eea-49b9-a90d-be57eaf12c58.webp",
+      "sha256": "b1f79d1e2ae439b0b029ad124c27b11eddde705543e735f73497bab13220cca5"
+    },
+    {
+      "path": "assets/2542327c-034d-4976-816a-e1d6f4b6a292.svg",
+      "sha256": "9521be2a6ea6ec35790b69c4f080923faab724181e81feabd9b1b05d604b96a7"
+    },
+    {
+      "path": "assets/2aa7bb51-e167-4113-bc69-aa92df1ecd2d.svg",
+      "sha256": "7f5c2b773bc15070e7243b5e514794ac2a42fa332783b9e9880a72b5c1ce19be"
+    },
+    {
+      "path": "assets/2cc026c5-dab0-4c21-b4db-ab14f95c55c3.svg",
+      "sha256": "fb41783680bd9866e7d0bbab76d9a5ffb8333d6f3ad73c08f060513dcc415af2"
+    },
+    {
+      "path": "assets/2e2b75ab-40f2-4fc9-965d-d62ef7eb3bc1.webp",
+      "sha256": "5613d382722090bbbb445a678901e1df2eda177586ad5d437fcd74972243a7eb"
+    },
+    {
+      "path": "assets/2e7c0eee-2c03-4500-a9be-06b4dc7fe7cc.svg",
+      "sha256": "9df9a7787a4c1090c73d3401c3d72fe9d644cacdc2a69ccc360be93e66cfb6b3"
+    },
+    {
+      "path": "assets/33fc7999-10a7-4c82-b83a-971638aff0d3.svg",
+      "sha256": "6e8a4a75a4f90710454224a46e9466d9ae90568d505997847025bd3937293980"
+    },
+    {
+      "path": "assets/3877f7ef-9597-42c4-9046-f14058297483.webp",
+      "sha256": "7a10eda1be506c5b30fc01d7d16c41677ab8ae718f4542cfcf0aa5a9ecc52694"
+    },
+    {
+      "path": "assets/3cf0f1ce-2670-40a4-bd91-8e93be1611f7.svg",
+      "sha256": "d2ff3006b339e9382eab7a923673b0da470c522ad1d5aee5799b7a6409f89d7d"
+    },
+    {
+      "path": "assets/4124536c-ce76-4a41-8df1-fb6203c7633a.webp",
+      "sha256": "c4f12f345784a5d3c8fa94226f65e625555b705f5b4355fb779501eb85585334"
+    },
+    {
+      "path": "assets/4cd6ffc6-d90a-44a4-92b7-5dc68670021b.svg",
+      "sha256": "7c9076af4a7c0568add553cabcbe202301fb8f969123aaa5d19af92721c95097"
+    },
+    {
+      "path": "assets/4dc78775-87d8-4102-8771-1b82b8db9db0.svg",
+      "sha256": "5b1a5f4d4db9305ebece8f6acd2efb82884920c6fb35c65b6b7705e458c36488"
+    },
+    {
+      "path": "assets/4fd3958a-f18e-4328-a170-4ac5e2496bcc.svg",
+      "sha256": "3d8a418ed8805239b5b5a519df52e9fb698cbd7d496149dbc72194e51fd33a36"
+    },
+    {
+      "path": "assets/5169d936-1f2b-4465-887f-a19ef666cde3.svg",
+      "sha256": "c740ea8f7023668b468187c5aaacb8bf7d72d9d310fcf1e86257abcf6e2ee224"
+    },
+    {
+      "path": "assets/520da44c-393a-4be8-aafd-5f14546025b0.webp",
+      "sha256": "c6664e0e24cc8c1bb73ac8ed91115fa25d03df88e9a2fa01e0ac6cf1bbb14fab"
+    },
+    {
+      "path": "assets/522afa14-fc04-4c74-bd9c-659f488998f0.webp",
+      "sha256": "a05c5ce053d362d1da2be4ac7e2c3cb3609277dbcac46ba25d0d2c76944f0cf5"
+    },
+    {
+      "path": "assets/54444da0-0fbe-4e88-9921-fee8e9c147a0.svg",
+      "sha256": "7c2a00ece7ad8bfcee6328db6d27874e17378f826c0ac9ce2e26ee6e022405f6"
+    },
+    {
+      "path": "assets/5910b76f-fd1f-4a95-aa79-0f3140a3015f.svg",
+      "sha256": "d28ca5aa34cb691c630e485936a4320b96072f04bd663c77fe094224e0d2e2a5"
+    },
+    {
+      "path": "assets/5c9d29e4-a0f5-48ae-80a5-11cfda9f66f7.svg",
+      "sha256": "1a61cd41595b45414bc78974525936231307cd551c9cf61996d11afad7363a64"
+    },
+    {
+      "path": "assets/5e014c20-3ca1-46eb-bcba-671665f4a483.svg",
+      "sha256": "eceda5b93d73171ed52a9999ee1f44d5673b51e3a7338879e11033ef96f3776b"
+    },
+    {
+      "path": "assets/5e5f3669-bcad-4dad-aab5-8fd0e1e14461.svg",
+      "sha256": "23b60f1bf165b47fa48ced9dec26b84f767dc82d27579733f2613b6159510d84"
+    },
+    {
+      "path": "assets/6767f9c2-751e-49d5-866c-4d466ecdf389.svg",
+      "sha256": "6dcd350b80f3a58d65c6dba39e332e7b1eb4916bb50821a8e73c0ebc52870551"
+    },
+    {
+      "path": "assets/71b033ee-7f10-4e89-8f75-f6f36c8ec491.webp",
+      "sha256": "31dc1fe97602c7a4bdf2d418e1841fd7344a43c80bc0c8295e75644eac9d846a"
+    },
+    {
+      "path": "assets/723373bb-549d-44a5-90fc-e136fff9aff2.webp",
+      "sha256": "79c03dd91717046f8d0c00d53dc4bc33e3fd821f8ae683e3804481d766a71f75"
+    },
+    {
+      "path": "assets/726271f7-092f-497e-89c6-ff6c347fa0bd.svg",
+      "sha256": "dd56d412f796109ca65bd311da34e0dc4e326861abe889f271603376b8f8b517"
+    },
+    {
+      "path": "assets/79acd6ab-94e7-4970-affb-f9480b2e328c.svg",
+      "sha256": "60657b055d8697d29e6bd1d730ec7e0861a589282f2cacb30c843d4f293b5555"
+    },
+    {
+      "path": "assets/7b5d86e3-a266-4631-a864-0d7d265c4f1d.webp",
+      "sha256": "8dd760cfe0e0de4634d1ef74e98f5f7691a3d472b1d2ecc99f0e6830f7e853dd"
+    },
+    {
+      "path": "assets/88194a44-ae7f-4d0e-a391-901d6172bbc0.svg",
+      "sha256": "a5280a8716365c81f581e40c585aabb5608329705c8f0cf510faeed58934a36d"
+    },
+    {
+      "path": "assets/8e2a4df2-2e50-442b-ada2-b02f5d990f9d.svg",
+      "sha256": "ba933594cfd7d7d062a0f44f0af832a4fbc29bbdcb47b2ad9b977d93605094f5"
+    },
+    {
+      "path": "assets/90719429-6c33-4cac-b268-2c0b88d3c9a3.webp",
+      "sha256": "b97e3b86da01086813a8e561f3e011352cd7dad16b9b9862dab4b53ea16c9c1a"
+    },
+    {
+      "path": "assets/944c9adf-a8bb-4d86-9b69-38f0812330b1.svg",
+      "sha256": "7848601c437a74e85fad3a58a541670ab2d2d9407751c50c3e27dbbf23d597f0"
+    },
+    {
+      "path": "assets/94768780-e378-4040-b389-9b477dab10af.svg",
+      "sha256": "95ccc42b33e7e2927bd40ef71566eea6b709388cbe2a3149f226d766e61896b3"
+    },
+    {
+      "path": "assets/94be32f3-70db-442c-9f84-a285063dd817.webp",
+      "sha256": "f4819692db25d06145199354a1be1497ec69b022c75617c52ee85a62264310dd"
+    },
+    {
+      "path": "assets/95368492-2b62-40be-ac77-afcc9bec0ea9.svg",
+      "sha256": "365772da4a6a62d0c4d7cca03dc29c44faf44f000354ab22b4aaa8ff9fd138f4"
+    },
+    {
+      "path": "assets/98e2c192-dffa-436e-9c70-ec842c203195.svg",
+      "sha256": "8cfa87240341da9f4db9eea847d08d59d0a73b773b85a6087d71f6aad3cea586"
+    },
+    {
+      "path": "assets/9b4689ad-4dfc-4001-a7ba-0d7c7ea229ec.webp",
+      "sha256": "98d94f6e92ed6625c88f7756a3e587f1647d34fedc66b6166dc9a7203a8c8a39"
+    },
+    {
+      "path": "assets/9cbcfc2b-c91f-4c6c-8fdc-470f7d40f679.webp",
+      "sha256": "83c07f41d421a4cb403476d9e780ba20708128e9c69f735b625f1053deb45b91"
+    },
+    {
+      "path": "assets/a031613c-a5eb-4d56-96e4-9ef49fba7af3.webp",
+      "sha256": "b142147724d9f95e4811a70df9c4e8a59ac4672bc2d056dde92088791032c696"
+    },
+    {
+      "path": "assets/a0c2fa26-cd1e-4ba6-8a7e-35f6101cdfe4.svg",
+      "sha256": "b70bfcd47e9a6399e1f80a1162ac1869dbf51b3ec8c9a96343da0256fa77bb5c"
+    },
+    {
+      "path": "assets/a34adb3e-36ba-4c4b-b0d7-95dfeec98ecc.svg",
+      "sha256": "14dcee6b4cf38177d037c0a0be870b54bb934a5da2e0a58f0e0697114d18e5d8"
+    },
+    {
+      "path": "assets/a93e70f1-cc24-4021-a90e-70e0797cfc2e.webp",
+      "sha256": "20fbd153d0d9516cefa0224f81c39b1a154841fd85ba7a04c8a548c65cf42162"
+    },
+    {
+      "path": "assets/a9804f61-1dff-45f7-9242-5296ebdd2cf0.webp",
+      "sha256": "adbafa0c3f8a79859ddec384b9b40775ec4ce001868b8777f09bc84b93fcaf10"
+    },
+    {
+      "path": "assets/aace3239-f4ba-4d30-acdf-02af3ab28189.webp",
+      "sha256": "55d0300b25bc2cd43f43f176c32f71d1cf3b59c4910794ecdd7ff140d48d6d0a"
+    },
+    {
+      "path": "assets/ae2615df-cee2-453a-93a7-f330875e8e7a.svg",
+      "sha256": "bf5bc57f3b5c79086c13d718ba6553d219867d3224d8df47977960d0e7f6dbd3"
+    },
+    {
+      "path": "assets/afe814e8-5bb9-4f3b-a02c-04d8813c281e.svg",
+      "sha256": "0178a086e1071cbb5c99f35d499135401c9f897104b44f82a32278ff58f80bd6"
+    },
+    {
+      "path": "assets/b3da6adc-9dbe-4cee-a832-745fd281c6a2.webp",
+      "sha256": "4e5c03faff9296db07659edf07a74525db14b9f35eaa4bd11d7a515033be97a3"
+    },
+    {
+      "path": "assets/bb53703e-5d00-4fa2-972b-191ca1c9ba49.svg",
+      "sha256": "02cc9e04f8f78abfff3baf7cb9a32a7725508cccfef59a2db6ed6a200bdccc8e"
+    },
+    {
+      "path": "assets/bcf5b483-94a0-4f9d-9611-3569350b8014.webp",
+      "sha256": "223823cc2b26f14b769d49c510c2a8cd9efa25478225f675538283e1473b520e"
+    },
+    {
+      "path": "assets/brand/bebidas-fondo.webp",
+      "sha256": "88d7c7aa22b48bc615cf45263a5cac30e33bbd091bd05ee74a96428c1d173218"
+    },
+    {
+      "path": "assets/brand/compartir-fondo.webp",
+      "sha256": "303a8597b598c955c4fa8c475a53ce7f922382f71d68a2dd6227be0c3e728a23"
+    },
+    {
+      "path": "assets/brand/ilustraciones-para-beber-botella-vino.svg",
+      "sha256": "fcdb3672f9bf4ab3e7c7c8d435aa81c12d76fdc74bf967408fcc1dfc5ee491b6"
+    },
+    {
+      "path": "assets/brand/ilustraciones-para-beber-copa-vino.svg",
+      "sha256": "7686c504fd448724837e6a19cb72ee2aafb2012f5061140ed861c910c8996801"
+    },
+    {
+      "path": "assets/brand/ilustraciones-para-compartir-champinon1.svg",
+      "sha256": "f00feaa3f611c7c4ef4ff6904690d1c794a904394ed720885ca2314a778ec8e2"
+    },
+    {
+      "path": "assets/brand/ilustraciones-para-compartir-champinon2.svg",
+      "sha256": "47323f182451855fa5a819065ab2a9ebdc1ddbb496a5d10aa88c5c89c332e286"
+    },
+    {
+      "path": "assets/brand/ilustraciones-para-compartir-pizza.svg",
+      "sha256": "85d18efd5e8774b772a0c5514310687badd6a6da0c6cb85c652ecf45f3e9499c"
+    },
+    {
+      "path": "assets/brand/ilustraciones-para-compartir-tomate.svg",
+      "sha256": "e65b24d0bf194b850b0c23f4d605b62dd528877b6ca45d3502fb77435ec7d2d5"
+    },
+    {
+      "path": "assets/brand/ilustraciones-para-terminar-limon.svg",
+      "sha256": "9f38ddca7d05334a3a72fdf3153baa7210e6be3e54bec627e4ea356427986de8"
+    },
+    {
+      "path": "assets/brand/ilustraciones-visitanos-champinones.svg",
+      "sha256": "68572e0bbadedee7935fa50f2a272fbd484e7e58f79959007cc79119c899cb87"
+    },
+    {
+      "path": "assets/brand/ilustraciones-visitanos-group.svg",
+      "sha256": "68572e0bbadedee7935fa50f2a272fbd484e7e58f79959007cc79119c899cb87"
+    },
+    {
+      "path": "assets/brand/texto-trazado-cada-plato.svg",
+      "sha256": "013682652a49360f8a42e85126dc0baeffb1e0fdaeb68fd7c2dbc70048e86af0"
+    },
+    {
+      "path": "assets/brand/texto-trazado-donde-el-fuego.svg",
+      "sha256": "f718513e74c57c419a0d4c9cad00f5c3c6b6fff30dcdddffc96ee3b30a836463"
+    },
+    {
+      "path": "assets/brand/texto-trazado-entre-italia-y-patagonia.svg",
+      "sha256": "c1c9f60e12866208abb104be61f1325f07aea3aff6004c31448277ddb5f9bbe2"
+    },
+    {
+      "path": "assets/brand/texto-trazado-la-sobremesa.svg",
+      "sha256": "41afaae73e20d31831da29e00ed4245b699c1d4f5204197d877b1114e50340fb"
+    },
+    {
+      "path": "assets/brand/texto-trazado-sin-atajos-ni-excusas.svg",
+      "sha256": "9998748a07e109f9784de22b76361255b4a1943b45b1ceb881929f6ee477f7c4"
+    },
+    {
+      "path": "assets/brand/texto-trazado-sin-atajos.svg",
+      "sha256": "f27977aa524c536a8263362ab63ed4bdd28620d6d04275c3dc6bf2a12166dd72"
+    },
+    {
+      "path": "assets/brand/texto-trazado-todo-comienza-en-la-mesa.svg",
+      "sha256": "ad61f990b8c8c73c1ed2fa814d8e83e0a1ebc065686aee67dddb1604e2cf9a4a"
+    },
+    {
+      "path": "assets/brand/texto-trazado-una-mesa-que.svg",
+      "sha256": "78e45101bf512373db9fb4d903723686bbb041e4d57dacd9cf0749b646c2bbed"
+    },
+    {
+      "path": "assets/brand/texto-trazado-y-donde-hay-copas.svg",
+      "sha256": "4cae12372093a908e522bb78a9ea7e9909a88dfa88ead5cc90beb9015c8437dd"
+    },
+    {
+      "path": "assets/brand/textos-manuscrito-fondos-circulo.svg",
+      "sha256": "f26a2cd101b84d6e11760b456dabc6ac3cb296bee1170389eb032001b02c54c5"
+    },
+    {
+      "path": "assets/brand/textos-manuscrito-fondos-fermentacion.svg",
+      "sha256": "ff27c4995e018ecbe9c605c0b10b469aebd7d5c4374cf20f47ce68cd4f3c2c26"
+    },
+    {
+      "path": "assets/brand/textos-manuscrito-fondos-la-mejor-demostracion.svg",
+      "sha256": "259d07b77b0a5658833450ed315b5877d957c8ef82f102c9c01e0c32a00f6392"
+    },
+    {
+      "path": "assets/brand/textos-manuscrito-fondos-linea.svg",
+      "sha256": "13d9e18c820b25d8b974bec32348163dd4f64a416449cd0d202e529a10f0fd32"
+    },
+    {
+      "path": "assets/brand/textos-manuscrito-fondos-nos-encanta-lo-local.svg",
+      "sha256": "6e1804395311dc98f105c8f522acacb94fec4c4bfc4a1a1b7a6ae20f3068c7b6"
+    },
+    {
+      "path": "assets/brand/textos-manuscrito-fondos-pro.svg",
+      "sha256": "0d72aaa297ff4c46ca83fbf6bbf4c88a636134915689de2b3301fb75bdd7791e"
+    },
+    {
+      "path": "assets/brand/textos-manuscrito-fondos-siguiente.svg",
+      "sha256": "b14ad3ee3f308927e6dc484e829707ae4422d538254e76c2f8d2ce0a5751b713"
+    },
+    {
+      "path": "assets/brand/textos-manuscrito-fondos-vegana.svg",
+      "sha256": "cb34e87ea135e466f5b32ca340248351ae382b374439da8c82cd5fefad0a930e"
+    },
+    {
+      "path": "assets/brand/textos-manuscrito-inicio-group-2.svg",
+      "sha256": "94cb5b647243d01cc99e18cc028b4d940df4d6430ea99672afdf09ab5f51e856"
+    },
+    {
+      "path": "assets/brand/textos-manuscrito-inicio-group-3.svg",
+      "sha256": "68d023f4580be86a29ea21a0dae8dc14b7fd4a9ab7226b52e08dc2071ea30376"
+    },
+    {
+      "path": "assets/brand/textos-manuscrito-inicio-group-4.svg",
+      "sha256": "9f193bc6e88b08feab1b7a5e5b9695d12cb47a349449b7fcf5249638e3724590"
+    },
+    {
+      "path": "assets/brand/textos-manuscrito-inicio-group-5.svg",
+      "sha256": "0586bdc483bf6659e275604cc08af21095d71639b10e2676d65738e71cbc9333"
+    },
+    {
+      "path": "assets/brand/textos-manuscrito-inicio-rectangle.svg",
+      "sha256": "5dd7b7c75f801c5aeec1221a52b9d9a18302b1eec051ba3cf0d6eb3fe0e78c46"
+    },
+    {
+      "path": "assets/brand/textos-manuscrito-inicio-texto1.svg",
+      "sha256": "369a3266006f7e3bbb40470dcd0704c87eb901945d56105b20c301589e4936e9"
+    },
+    {
+      "path": "assets/brand/textos-manuscrito-para-beber-antojos.svg",
+      "sha256": "e8dfd70f280276fd789f996505c169e66f4bddd8277035bd917a15f59288f860"
+    },
+    {
+      "path": "assets/brand/textos-manuscrito-para-beber-bebida.svg",
+      "sha256": "500a00e7af507fdb25437439de64369c54eb9249ecc61ae533f0c7aab7adc5ac"
+    },
+    {
+      "path": "assets/brand/textos-manuscrito-para-beber-michelada.svg",
+      "sha256": "205332cf2dc00c5996a2661acaa670e8e7bbba0ca3d2eb4cfefca968d9f05e19"
+    },
+    {
+      "path": "assets/brand/textos-manuscrito-para-beber-sal-o-azucar.svg",
+      "sha256": "1cb67eed9843078fc15076652e0b31450e0b6147a4d385e8d4e2f879600241f8"
+    },
+    {
+      "path": "assets/brand/textos-manuscrito-para-beber-sal-y-limon.svg",
+      "sha256": "261437670b0f576d03ca401c43396816442501f2858c8ddd706197213fe4632b"
+    },
+    {
+      "path": "assets/brand/textos-manuscrito-para-beber-tonica.svg",
+      "sha256": "da1963aeae1ea51d7349802312c9608f99cac9b59862d3297b5ff38123308f01"
+    },
+    {
+      "path": "assets/brand/textos-manuscrito-para-beber-variedades1.svg",
+      "sha256": "ae3c958d575e2cbf3b8b02f970aa7450aaf19f118770b94bbf00a0c6f5c299d4"
+    },
+    {
+      "path": "assets/brand/textos-manuscrito-para-beber-variedades2.svg",
+      "sha256": "b5d2fef73675a40324970a3824b18e3d111cc47a298c2ba31351f99be1195ca2"
+    },
+    {
+      "path": "assets/brand/textos-manuscrito-para-beber-volver.svg",
+      "sha256": "d8884b6e7c347259b997b3a6495767b0715f82937859c168245681220cf93be1"
+    },
+    {
+      "path": "assets/brand/textos-manuscrito-para-compartir-flecha.svg",
+      "sha256": "c9b09db6b474a3ffa8a5d17348bc02e70606133c8e2fbcae0c9d0c74e74186a2"
+    },
+    {
+      "path": "assets/brand/textos-manuscrito-para-compartir-rectangle.svg",
+      "sha256": "ef75b3764214bacbb32d8bfc5ec3ee091d8440f90418f960aa79bb8b15035b44"
+    },
+    {
+      "path": "assets/brand/textos-manuscrito-para-compartir-rectangle2.svg",
+      "sha256": "5852bd1345b6285ff82eaabccf0250fdada074343e85b70966a727dcfcfdfef0"
+    },
+    {
+      "path": "assets/brand/textos-manuscrito-para-compartir-rectangle3.svg",
+      "sha256": "11145118548c6fb9de35f692cce87fa4c89746fd3b77c8d4a8f58768f388e6bc"
+    },
+    {
+      "path": "assets/brand/textos-manuscrito-para-compartir-rectangle4.svg",
+      "sha256": "9ea86c5bef465e6d602fb6d2821891186aab14c8b24f1a342ad6d813e9687bf4"
+    },
+    {
+      "path": "assets/brand/textos-manuscrito-para-compartir-salmon-de-la-zona.svg",
+      "sha256": "78287c7a31894cafd02dc4ab8d40f7bf410f76744e8a3945874744e4073a635e"
+    },
+    {
+      "path": "assets/brand/textos-manuscrito-para-compartir-siguiente.svg",
+      "sha256": "1f0c4c5c044f66156398f65926a43c796ec64986f5946eb02798aa7bac05e8f0"
+    },
+    {
+      "path": "assets/brand/textos-manuscrito-para-terminar-de-lejos.svg",
+      "sha256": "66e3950d6429fee5ede02daa8639f7324d98a0bc51ac331f8c77aaab1aab3f19"
+    },
+    {
+      "path": "assets/brand/textos-manuscrito-para-terminar-flecha.svg",
+      "sha256": "b46f1db21250ece4575095168a625dd1b521782182962cc637b55dff55cb0748"
+    },
+    {
+      "path": "assets/brand/textos-manuscrito-para-terminar-siguiente.svg",
+      "sha256": "40bdb1f69c5bd48678e955693a18af041a0af77bef05e47f8e0e6c94d95064db"
+    },
+    {
+      "path": "assets/cd257cab-bfcc-46a7-9775-ccf9c862e2c3.svg",
+      "sha256": "0ecfe7bf0aaefa202fb02a0b7d381b21aa13e9257f4fd64e1510c94b1e71978c"
+    },
+    {
+      "path": "assets/ce339636-d955-41c7-8ddc-eea75e9ad346.webp",
+      "sha256": "0e39d67690ddc795c47d67e8d1c67e221e6ab0d1e129f8c9155205e9a3ef119e"
+    },
+    {
+      "path": "assets/cf429771-1da2-46f1-af9d-84e087ce3fdb.svg",
+      "sha256": "7f5c2b773bc15070e7243b5e514794ac2a42fa332783b9e9880a72b5c1ce19be"
+    },
+    {
+      "path": "assets/d084b028-ec3a-404c-86b6-a92600106bd1.webp",
+      "sha256": "45acdaf0a76bba76515e348fefd5b0b31d81a6cfa5748624e5e8261380c5e442"
+    },
+    {
+      "path": "assets/d11ea580-05ad-4f18-bb3a-6af60edf5db6.webp",
+      "sha256": "fe86f51f0419e6a22df79a07209f2b3ca8f433fd7c18e4e9cf54ecdf66aefacd"
+    },
+    {
+      "path": "assets/d2ea7548-2420-4bd4-b86a-2ce6ca723956.webp",
+      "sha256": "a4892e045ac46ea866f2eb2a5f3e5b479609121490c1a207389f7211f6e08bd8"
+    },
+    {
+      "path": "assets/d54fa41c-3abc-495c-b6cb-4c88a103a80d.svg",
+      "sha256": "0287db63771107ad0974c7a8136f6acdbf5e4d145b1c44b4d719bdfd0ccfe66b"
+    },
+    {
+      "path": "assets/d629164c-fe2a-4494-a07e-3bca0cb92cc4.svg",
+      "sha256": "aa74b9ba82fc06d3067b3004576368f406799889623ba807c0e5f5125f90c57a"
+    },
+    {
+      "path": "assets/da0f0aa3-9c53-441e-80b6-2d9ae263bf16.webp",
+      "sha256": "ceff6be41acb30cfc57b91b76624a15b5891d23f7a4b7fccfb842dd5c7dc4fd0"
+    },
+    {
+      "path": "assets/dbdab082-e498-4b81-bcd1-229f3926b111.svg",
+      "sha256": "a58465bedbeea0833b5c6a166784b79d6047206acf203165dd1e7d7f7a8f57e3"
+    },
+    {
+      "path": "assets/dessert-art.svg",
+      "sha256": "c34274fbc9285852f15f717e2fdfa696545aa6f50246fd233b18e76e292c17ad"
+    },
+    {
+      "path": "assets/e10220e9-30be-48c2-be06-b0c84e2aa039.webp",
+      "sha256": "b15c93c314bd755076706d4ede8d018fe134dac8dd5dc5b40000fce4b4233f93"
+    },
+    {
+      "path": "assets/e81f246a-734e-43d6-8222-11a04c6650d0.webp",
+      "sha256": "fe86f51f0419e6a22df79a07209f2b3ca8f433fd7c18e4e9cf54ecdf66aefacd"
+    },
+    {
+      "path": "assets/e89b236f-5fd3-49a7-ba7f-3342b3745755.svg",
+      "sha256": "9d20d5e5b2700e987eb6308d0829855606c7aad39460c870e4a0f5f2361d36e8"
+    },
+    {
+      "path": "assets/e913d704-9a9d-4eeb-9c6c-c837358c3ddc.webp",
+      "sha256": "5097bda5a25113cdc027f6004b061e443be811c9b4b8a6b5dc38e65cb5fe0a5f"
+    },
+    {
+      "path": "assets/ee6627e7-0e41-4bb9-8a4c-5e71237ca852.svg",
+      "sha256": "a299840e1c33f130a3e561d164cdf04f77e0172890444b4f5b30e626aefad5d4"
+    },
+    {
+      "path": "assets/f59daaf7-df8c-471d-95f4-a5c56ef6846e.svg",
+      "sha256": "e40b5ec16b94cbffbcefe224f9fb8fba661d9a42695b1dac8dbd37caa160db62"
+    },
+    {
+      "path": "assets/f86f74ed-e828-489d-9b5a-62836deb122a.webp",
+      "sha256": "00b9f41a235d2d5418290933c79cd3764562dfb1237e1d0da45c5641063ed3b4"
+    },
+    {
+      "path": "assets/faa1eebb-d824-4e43-9eba-ec6e75ec8310.webp",
+      "sha256": "1aea9bb7289729f2d598688cc742ba8df3d58c38ed9680499b1dd193d448ed11"
+    },
+    {
+      "path": "assets/logo.svg",
+      "sha256": "6f6e2be662201cbfae4e8ce68869f48f95df5185272c170a681ed35e381a1273"
+    },
+    {
+      "path": "assets/pasta1-art.svg",
+      "sha256": "c940ba940678249c2790b19ffaf1f4a5d9c58c9fd13b8181316463a78aba0ea5"
+    },
+    {
+      "path": "assets/pasta2-art.svg",
+      "sha256": "1cb9d08f67e554ed05c037dee2b00a655fbc741471393f1fcf5105d22a0818bb"
+    },
+    {
+      "path": "assets/pizza-art.svg",
+      "sha256": "273a947aebb972975aad861b1362fb7be9b84bc1b9ffdc543b1d7a9496d1e592"
+    },
+    {
+      "path": "assets/reserve-art.svg",
+      "sha256": "42ff28531344e07fab0a329db7e79cad6796f69ef9530cea0ec5b9a022fde9ab"
+    },
+    {
+      "path": "assets/salads-title-mask.svg",
+      "sha256": "7ac3e205c0a6b52281a4524a45045ba08eb3ca2d6eec07b7b2a06a79b59e6203"
+    },
+    {
+      "path": "assets/share-art.svg",
+      "sha256": "e777c63c4a47beb3b78e64415ed6db3640060169305f4fdad5df2bcb95b91075"
+    },
+    {
+      "path": "assets.json",
+      "sha256": "8214c0692dd7e52055432e5b5ad88a1e6af2b4d5dbb06830121eb48d191ad55a"
+    },
+    {
+      "path": "brand-assets.json",
+      "sha256": "03c72c3f2a9dc4da0f4717154c08a165a80069815bf0cc78291eb4ab230abe5a"
+    },
+    {
+      "path": "index.html",
+      "sha256": "962092b933f514a556d2a670780c947e7b2c632f276ba2ff40f94fa3ac6c0317"
+    },
+    {
+      "path": "menu-layout.json",
+      "sha256": "47690c04d505882480033c4de6ad182178169930c75b921158dc39d332f59744"
+    },
+    {
+      "path": "menu.json",
+      "sha256": "48f3d269756b41fa322fe7c1cc8d22991ea3df4e2cd368dc62165dcce2c11541"
+    },
+    {
+      "path": "styles.css",
+      "sha256": "518bde84b3aff074a79743e169f011a11b9f5fa17e0201c1ad99ef4d4fd0d2b1"
+    }
+  ]
+}

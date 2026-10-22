@@ -1,0 +1,883 @@
+{
+  "compartir": [
+    {
+      "name": "BURRATA CON ZAPALLO ASADO",
+      "description": "Burrata fresca, zapallo asado al horno y aceite de oliva.",
+      "price": "14.000"
+    },
+    {
+      "name": "BURRATA CON PESTO Y TOMATE CHERRY",
+      "description": "Burrata fresca con pesto de albahaca, tomate cherry asado y aceite de oliva.",
+      "price": "15.000"
+    },
+    {
+      "name": "VITEL TONÉ",
+      "description": "Láminas de punta de ganso con salsa tonnata, cebolla encurtida, alcaparrones y aceite de oliva.",
+      "price": "12.500"
+    },
+    {
+      "name": "ARANCINI DE PANCETA, CHAMPIÑON Y MOZZARELLA CON SALSA BRAVA",
+      "description": "Tres croquetas de arroz rellenas de panceta, champiñones y mozzarella, servidas con salsa brava.",
+      "price": "11.500"
+    },
+    {
+      "name": "ARANCINI DE ESPINACA Y MOZZARELLA",
+      "description": "Tres croquetas de arroz rellenas de espinaca y mozzarella, servidas con salsa pomodoro.",
+      "price": "10.500"
+    },
+    {
+      "name": "ARANCINI DE OSOBUCO Y MOZZARELLA",
+      "description": "Tres croquetas de arroz rellenas de ossobuco braseado y mozzarella, servidas con salsa española.",
+      "price": "12.000"
+    },
+    {
+      "name": "TRÍO DE ARANCINIS",
+      "description": "Selección de tres arancinis de la casa. Servidas con salsa a elección.",
+      "price": "12.000"
+    },
+    {
+      "name": "TIRADITO DE SALMÓN",
+      "description": "Láminas de salmón fresco con leche de tigre, chalaquita, ikura y aceite de cilantro.",
+      "price": "14.000"
+    }
+  ],
+  "ensaladas": [
+    {
+      "name": "ENSALADA CAPRESE",
+      "description": "Pesto, tomate asado, mozzarella di buffala y mix de verdes.",
+      "price": "14.000"
+    },
+    {
+      "name": "ENSALADA CON RICOTTA Y SALMÓN AHUMADO",
+      "description": "Mix de verdes, ricotta, cebolla morada encurtida y salmón ahumado",
+      "price": "13.000"
+    },
+    {
+      "name": "ENSALADA MIX",
+      "description": "Mix de hojas frescas, tomate cherry y aderezo de la casa.",
+      "price": "7.500"
+    },
+    {
+      "name": "ENSALADA CÉSAR",
+      "description": "Lechuga, crutones, tiras de pollo frito, parmesano y aderezo César.",
+      "price": "11.500"
+    },
+    {
+      "name": "CREMA DEL DÍA",
+      "description": "Preparación casera según productos de temporada.",
+      "price": "7.000"
+    }
+  ],
+  "fondos": [
+    {
+      "name": "SORRENTINOS DE TRUCHA Y RICOTTA",
+      "description": "Pasta rellena de trucha y ricotta con beurre blanc y alcaparras.",
+      "price": "15.700"
+    },
+    {
+      "name": "SPAGHETTI CARBONARA",
+      "description": "Emulsión de yemas, guanciale, pecorino romano y pimienta negra.",
+      "price": "15.000"
+    },
+    {
+      "name": "SPAGHETTI ALL’AMATRICIANA",
+      "description": "Salsa pomodoro, vino blanco, guanciale y pecorino romano.",
+      "price": "13.000"
+    },
+    {
+      "name": "FETTUCCINI AL RAGÚ",
+      "description": "Salsa de carne de cocción de seis horas.",
+      "price": "14.000"
+    },
+    {
+      "name": "FETTUCCINI NEGRO CON LANGOSTINO",
+      "description": "Con bisque de camarones, ajo, cebollín, tomate y langostino e ikura.",
+      "price": "17.000"
+    },
+    {
+      "name": "SANDWICH PATAGÓN",
+      "description": "Focaccia con carne mechada, queso fundido, rúcula, salsa criolla y mayonesa de ajo.",
+      "price": "13.500"
+    },
+    {
+      "name": "SANDWICH EL CRIOLLO",
+      "description": "Focaccia con berenjena en escabeche , burrata, tomate, rúcula y aceite de oliva.",
+      "price": "14.000"
+    },
+    {
+      "name": "ÑOQUIS CUATRO QUESOS CON FILETE",
+      "description": "Ñoquis en salsa cuatro quesos con filete y chimichurri.",
+      "price": "21.000"
+    },
+    {
+      "name": "ÑOQUIS AL POMODORO",
+      "description": "Ñoquis con salsa pomodoro y mozzarella gratinada.",
+      "price": "11.500"
+    },
+    {
+      "name": "ÑOQUIS AL PESTO",
+      "description": "Ñoquis con pesto de albahaca, aceite de oliva y pecorino romano.",
+      "price": "12.000"
+    }
+  ],
+  "pizzas": [
+    {
+      "name": "MARGARITA",
+      "description": "Pomodoro, mozzarella fior di latte, albahaca y pecorino romano.",
+      "price": "9.000"
+    },
+    {
+      "name": "PEPPERONI",
+      "description": "Pomodoro, mozzarella fior di latte y pepperoni.",
+      "price": "10.000"
+    },
+    {
+      "name": "SUREÑA",
+      "description": "Pomodoro, mozzarella fior di latte, lomo kassler y aceitunas verdes.",
+      "price": "12.000"
+    },
+    {
+      "name": "CUATRO QUESOS",
+      "description": "Base de mascarpone, mozzarella fior di latte, queso azul, pecorino, salvia y miel.",
+      "price": "13.000"
+    },
+    {
+      "name": "LA BRAVA",
+      "description": "Mozzarella fior di latte, papas nativas, panceta, salsa brava y perejil.",
+      "price": "13.000"
+    },
+    {
+      "name": "LA DE RAFA",
+      "description": "Pesto vegano, zucchini, tomate deshidratado, panko tostado, ralladura de limón y aceite de oliva.",
+      "price": "13.000"
+    },
+    {
+      "name": "LA REBELDE",
+      "description": "Pomodoro, mozzarella fior di latte, prieta, tomate cherry, cebolla morada y chimichurri.",
+      "price": "13.000"
+    },
+    {
+      "name": "CAPRICHOSA",
+      "description": "Pomodoro, mozzarella fior di latte, lomo kassler, alcachofa, champiñones, aceitunas negras y albahaca.",
+      "price": "14.000"
+    },
+    {
+      "name": "VERDE MAESTRA",
+      "description": "Pomodoro, mozzarella fior di latte, vegetales asados, ajo confitado, champiñones, aceitunas negras y pesto.",
+      "price": "14.000"
+    },
+    {
+      "name": "PEPPERONI",
+      "description": "Pomodoro, mozzarella fior di latte, salame artesanal, stracciatella, miel picante y albahaca.",
+      "price": "14.500"
+    },
+    {
+      "name": "CHORRIPIZZA",
+      "description": "Pomodoro, mozzarella fior di latte, carne mechada, cebolla caramelizada, huevo pochado y cilantro.",
+      "price": "15.000"
+    },
+    {
+      "name": "LA CAMARÓN",
+      "description": "Base de mascarpone, mozzarella fior di latte, camarones, espárragos, almendras laminadas, albahaca y reducción de aceto balsámico.",
+      "price": "15.000"
+    }
+  ],
+  "postres": [
+    {
+      "name": "TENTACIÓN DE CHOCOLATE",
+      "description": "Marquise de chocolate con crema chantilly y frutos rojos.",
+      "price": "8.000"
+    },
+    {
+      "name": "TARTA VASCA",
+      "description": "Clásica tarta vasca de queso horneada con base de galletas Biscoff, acompañada de caramelo salado o frutos rojos.",
+      "price": "8.300"
+    },
+    {
+      "name": "TIRAMISÚ",
+      "description": "Galletas bañadas en café Micelio, crema de mascarpone y cacao amargo.",
+      "price": "6.500"
+    },
+    {
+      "name": "PIE DE LIMÓN",
+      "description": "Curd de limón, crumble, gel de menta y merengue.",
+      "price": "6.000"
+    },
+    {
+      "name": "FLAN DE DULCE DE LECHE",
+      "description": "",
+      "price": "5.000"
+    },
+    {
+      "name": "HELADOS ARTESANALES",
+      "description": "Consultar por variedades.",
+      "price": "5.000"
+    }
+  ],
+  "drinks": [
+    {
+      "title": "MOCKTAILS",
+      "items": [
+        {
+          "name": "COLOR DE ROSA",
+          "description": "Infusión de hibiscus, aguamiel y espumante rosé.",
+          "price": "6.800"
+        },
+        {
+          "name": "PURPLE BENI’S",
+          "description": "CONCentrado natural de jengibre, betarraga y syrup de canela.",
+          "price": "6.800"
+        },
+        {
+          "name": "GREEN BENI’S",
+          "description": "CONCENTrado natural de jengibre, pepino y soda.",
+          "price": "6.800"
+        },
+        {
+          "name": "TERERÉ",
+          "description": "MaTE FRÍO, jugo de pomelo y soda.",
+          "price": "6.200"
+        },
+        {
+          "name": "NUBE",
+          "description": "Vino tiNTO, Syrup de hibiscus y frambuesa.",
+          "price": "5.600"
+        },
+        {
+          "name": "ITALIANO SPRITZ",
+          "description": "",
+          "price": "6.500"
+        },
+        {
+          "name": "SANGRÍA",
+          "description": "",
+          "price": "6.500"
+        }
+      ]
+    },
+    {
+      "title": "COPAS",
+      "items": [
+        {
+          "name": "BRUT / ROSÉ",
+          "description": "",
+          "price": "4.000"
+        },
+        {
+          "name": "CABERNET SAUVIGNON",
+          "description": "",
+          "price": "4.400"
+        },
+        {
+          "name": "MIMOSA",
+          "description": "BRUT y jugo de naranja.",
+          "price": "4.900"
+        },
+        {
+          "name": "BELLINI",
+          "description": "BRUT Y Jugo de durazno.",
+          "price": "4.900"
+        }
+      ]
+    },
+    {
+      "title": "CERVEZAS SIN ALCOHOL",
+      "items": [
+        {
+          "name": "BOTELLÍN 0°",
+          "description": "",
+          "price": "3.800"
+        }
+      ]
+    },
+    {
+      "title": "JUGOS Y BEBIDAS",
+      "items": [
+        {
+          "name": "BEBIDA",
+          "description": "",
+          "price": "2.700"
+        },
+        {
+          "name": "AGUA CON / SIN GAS",
+          "description": "",
+          "price": "2.700"
+        },
+        {
+          "name": "KOMBUCHA",
+          "description": "",
+          "price": "4.200"
+        },
+        {
+          "name": "GINGER BEER",
+          "description": "",
+          "price": "4.200"
+        },
+        {
+          "name": "LIMONADA MENTA JENGIBRE O MENTA ALBAHACA",
+          "description": "",
+          "price": "4.200"
+        },
+        {
+          "name": "LIMONADA TRADICIONAL",
+          "description": "",
+          "price": "3.800"
+        },
+        {
+          "name": "JUGO NATURAL",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "title": "COFFEE",
+      "items": [
+        {
+          "name": "ESPRESSO",
+          "description": "",
+          "price": "2.500"
+        },
+        {
+          "name": "ESPRESSO DOBLE",
+          "description": "",
+          "price": "3.200"
+        },
+        {
+          "name": "AMERICANO",
+          "description": "",
+          "price": "2.800"
+        },
+        {
+          "name": "AMERICANO DOBLE",
+          "description": "",
+          "price": "3.500"
+        },
+        {
+          "name": "CAPPUCCINO",
+          "description": "",
+          "price": "3.600"
+        },
+        {
+          "name": "LATTE",
+          "description": "",
+          "price": "3.800"
+        },
+        {
+          "name": "FLAT WHITE",
+          "description": "",
+          "price": "4.200"
+        },
+        {
+          "name": "MOKACCINO",
+          "description": "",
+          "price": "4.400"
+        },
+        {
+          "name": "CHOCOLATE CALIENTE",
+          "description": "",
+          "price": "4.200"
+        },
+        {
+          "name": "CHAI LATTE",
+          "description": "",
+          "price": "4.400"
+        },
+        {
+          "name": "GOLDEN COCO MILK",
+          "description": "",
+          "price": "4.500"
+        }
+      ]
+    },
+    {
+      "title": "ESPECIALES DE CAFÉ",
+      "items": [
+        {
+          "name": "ESPRESSO VITAMINA",
+          "description": "Doble espresso y jugo de naranja.",
+          "price": "5.500"
+        },
+        {
+          "name": "ESPRESSO TONIC",
+          "description": "DOBLe espresso, tónica y limón.",
+          "price": "5.500"
+        },
+        {
+          "name": "ESPRESSO JAM",
+          "description": "DOBLE Espresso y agua de jamaica.",
+          "price": "5.500"
+        }
+      ]
+    },
+    {
+      "title": "ICED COFFEE",
+      "items": [
+        {
+          "name": "ICED LATTE",
+          "description": "",
+          "price": "4.200"
+        },
+        {
+          "name": "SMOOTHIE DE FRUTAS",
+          "description": "",
+          "price": "4.500"
+        },
+        {
+          "name": "ICED CHAI LATTE",
+          "description": "",
+          "price": "4.800"
+        },
+        {
+          "name": "ICE TEA",
+          "description": "",
+          "price": "2.800"
+        },
+        {
+          "name": "AFFOGATO",
+          "description": "HELADO DE vainilla con doble espresso.",
+          "price": "5.500"
+        }
+      ]
+    },
+    {
+      "title": "INFUSIONES",
+      "items": [
+        {
+          "name": "TÉ NEGRO / TÉ VERDE",
+          "description": "",
+          "price": "2.500"
+        },
+        {
+          "name": "MATE PARA 2",
+          "description": "",
+          "price": "3.000"
+        },
+        {
+          "name": "INFUSIÓN OTOÑAL",
+          "description": "MANZAna, pera, canela, nuez moscada y naranja.",
+          "price": "3.000"
+        },
+        {
+          "name": "INFUSIÓN FLORAL",
+          "description": "MANZANILLa, diente de león, rosas, caléndula y chilco.",
+          "price": "3.000"
+        },
+        {
+          "name": "INFUSIÓN MENTOL",
+          "description": "MENTA, MELISA, eucalipto, jengibre y limón.",
+          "price": "3.000"
+        },
+        {
+          "name": "Salsa extra",
+          "description": "Caramelo / chocolate / canela / Nutella",
+          "price": "900"
+        },
+        {
+          "name": "Topping extra",
+          "description": "Almendra / pistacho / malvavisco",
+          "price": "600"
+        }
+      ]
+    },
+    {
+      "title": "LATAS DE CERVEZA ARTESANAL",
+      "items": [
+        {
+          "name": "BOSQUES",
+          "description": "MAÑIO - PALE ALE 4.7° TEPÚ - AMBER ALE 5° KOIWE - SESSION IPA 5° LENGA - WEST COAST IPA 6.1°",
+          "price": "4.600"
+        },
+        {
+          "name": "TROPERA",
+          "description": "GUADALINA - BLONDE ALE 4.8° STRONG #47 - STRONG ALE 7.6° PERROS DEL MACKAY - PORTER 5.1°",
+          "price": "4.700"
+        }
+      ]
+    },
+    {
+      "title": "SCHOPS",
+      "items": [
+        {
+          "name": "SCHOP BOSQUES 300 CC",
+          "description": "",
+          "price": "3.900"
+        },
+        {
+          "name": "SCHOP BOSQUES 480 CC",
+          "description": "",
+          "price": "4.900"
+        }
+      ]
+    },
+    {
+      "title": "SOUR",
+      "items": [
+        {
+          "name": "AMARETTO SOUR",
+          "description": "",
+          "price": "6.600"
+        },
+        {
+          "name": "PISCO SOUR",
+          "description": "",
+          "price": "3.900"
+        },
+        {
+          "name": "PISCO SOUR PERUANO",
+          "description": "",
+          "price": "4.900"
+        },
+        {
+          "name": "CATEDRAL",
+          "description": "",
+          "price": "7.400"
+        }
+      ]
+    },
+    {
+      "title": "SPRITZ",
+      "items": [
+        {
+          "name": "APEROL SPRITZ",
+          "description": "",
+          "price": "7.300"
+        },
+        {
+          "name": "CAMPARI SPRITZ",
+          "description": "",
+          "price": "7.900"
+        },
+        {
+          "name": "LIMONCELLO SPRITZ",
+          "description": "",
+          "price": "6.900"
+        },
+        {
+          "name": "RAMAZZOTTI SPRITZ",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "title": "BAJATIVOS",
+      "items": [
+        {
+          "name": "ESPRESSO MARTINI",
+          "description": "",
+          "price": "6.900"
+        },
+        {
+          "name": "ESPRESSO BAILEYS",
+          "description": ""
+        },
+        {
+          "name": "RUSO BLANCO",
+          "description": "",
+          "price": "6.500"
+        },
+        {
+          "name": "IRISH COFFEE",
+          "description": "",
+          "price": "5.800"
+        }
+      ]
+    },
+    {
+      "title": "COCTELERÍA CLÁSICA",
+      "items": [
+        {
+          "name": "BLOODY MARY",
+          "description": "",
+          "price": "6.900"
+        },
+        {
+          "name": "CAMPARI ORANGE",
+          "description": "",
+          "price": "6.900"
+        },
+        {
+          "name": "CYNAR JULEP",
+          "description": "",
+          "price": "6.300"
+        },
+        {
+          "name": "LONDON MULE",
+          "description": "",
+          "price": "8.500"
+        },
+        {
+          "name": "MOSCOW MULE",
+          "description": "",
+          "price": "7.900"
+        },
+        {
+          "name": "MINT JULEP",
+          "description": "",
+          "price": "6.300"
+        },
+        {
+          "name": "MOJITO TRADICIONAL",
+          "description": "",
+          "price": "6.000"
+        },
+        {
+          "name": "MOJITO SABORES",
+          "description": "",
+          "price": "6.500"
+        },
+        {
+          "name": "NEGRONI",
+          "description": "",
+          "price": "7.500"
+        },
+        {
+          "name": "NEGRONI SBAGLIATO",
+          "description": "",
+          "price": "6.500"
+        },
+        {
+          "name": "SANGRÍA",
+          "description": "",
+          "price": "5.200"
+        },
+        {
+          "name": "SPICY PALOMA",
+          "description": "",
+          "price": "6.800"
+        },
+        {
+          "name": "TOM COLLINS",
+          "description": "",
+          "price": "6.900"
+        },
+        {
+          "name": "TEQUILA MARGARITA",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "title": "CORTOS",
+      "items": [
+        {
+          "name": "AMARETTO DISARONNO",
+          "description": "Licor de almendra.",
+          "price": "7.500"
+        },
+        {
+          "name": "DraMBUIE",
+          "description": "WHIsky con notas de miel y hierbas.",
+          "price": "9.200"
+        },
+        {
+          "name": "FrangELICO",
+          "description": "LICOR italiano de avellanas.",
+          "price": "6.900"
+        },
+        {
+          "name": "Baileys",
+          "description": "",
+          "price": "5.500"
+        }
+      ]
+    },
+    {
+      "title": "SHOTS",
+      "items": [
+        {
+          "name": "JIMADOR BLANCO SHOT",
+          "description": "",
+          "price": "5.500"
+        },
+        {
+          "name": "JIMADOR REPOSADO SHOT",
+          "description": "",
+          "price": "5.800"
+        },
+        {
+          "name": "JAGGERMEISTER SHOT",
+          "description": "",
+          "price": "4.500"
+        }
+      ]
+    },
+    {
+      "title": "COMBINADOS",
+      "items": [
+        {
+          "name": "VERMUT ROSSO CASA NEGRA",
+          "description": "",
+          "price": "5.900"
+        },
+        {
+          "name": "GIN GABRI",
+          "description": "",
+          "price": "7.500"
+        },
+        {
+          "name": "GIN TANQUERAY",
+          "description": "",
+          "price": "6.200"
+        },
+        {
+          "name": "VODKA STOLICHNAYA",
+          "description": "",
+          "price": "5.800"
+        },
+        {
+          "name": "FERNET BRANCA",
+          "description": "",
+          "price": "5.800"
+        },
+        {
+          "name": "PISCO MISTRAL 35°",
+          "description": "",
+          "price": "4.200"
+        },
+        {
+          "name": "PISCO MISTRAL CRISTALINO",
+          "description": "",
+          "price": "5.900"
+        },
+        {
+          "name": "PISCO MONTE FRAILE TRANSP.",
+          "description": "",
+          "price": "6.500"
+        },
+        {
+          "name": "PISCO MONTE FRAILE RESERVA",
+          "description": "",
+          "price": "6.800"
+        },
+        {
+          "name": "RON HAVANA AÑEJO",
+          "description": "",
+          "price": "6.000"
+        },
+        {
+          "name": "JOHNNIE W. RED",
+          "description": "",
+          "price": "6.500"
+        },
+        {
+          "name": "JOHNNIE W. BLACK",
+          "description": "",
+          "price": "9.300"
+        }
+      ]
+    },
+    {
+      "title": "COPAS TINTAS",
+      "items": [
+        {
+          "name": "MERLOT - OVEJA NEGRA",
+          "description": ""
+        },
+        {
+          "name": "CABERNET S. - OVEJA NEGRA",
+          "description": ""
+        },
+        {
+          "name": "CARMENERE - OVEJA NEGRA",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "title": "COPAS BLANCAS",
+      "items": [
+        {
+          "name": "BRUT - UNDURRAGA",
+          "description": ""
+        },
+        {
+          "name": "ROSÉ - UNDURRAGA",
+          "description": ""
+        },
+        {
+          "name": "SAUVIGNON BLANC - OVEJA N.",
+          "description": ""
+        },
+        {
+          "name": "CHARDONNAY - OVEJA N.",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "title": "BOTELLA",
+      "items": [
+        {
+          "name": "VIÑA VENTISQUERO - LÍNEA ALMA DE LOS ANDES",
+          "description": "PINOT NOIR -",
+          "price": "16.000"
+        },
+        {
+          "name": "VALLE DE COLCHAGUA",
+          "description": "MERLOT -",
+          "price": "16.000"
+        },
+        {
+          "name": "VALLE DEL MAIPO",
+          "description": "CARMENERE -",
+          "price": "14.000"
+        },
+        {
+          "name": "VALLE DE COLCHAGUA",
+          "description": "CABERNET SAUVIGNON",
+          "price": "15.000"
+        },
+        {
+          "name": "- VALLE DEL MAIPO",
+          "description": "SAUVIGNON BLANC -",
+          "price": "15.000"
+        },
+        {
+          "name": "VALLE DE CASABLANCA",
+          "description": "CHARDONNAY -",
+          "price": "15.000"
+        },
+        {
+          "name": "VALLE DE CASABLANCA",
+          "description": "",
+          "price": "14.000"
+        },
+        {
+          "name": "VIÑA LA RONCIERE - LÍNEA LICANTÉN D.O - VALLE DE CURICÓ",
+          "description": "",
+          "price": "28.000"
+        },
+        {
+          "name": "CABERNET FRANC",
+          "description": "",
+          "price": "28.000"
+        },
+        {
+          "name": "MALBEC",
+          "description": "",
+          "price": "29.000"
+        },
+        {
+          "name": "PETIT VERDOT",
+          "description": "",
+          "price": "30.000"
+        },
+        {
+          "name": "SYRAH",
+          "description": "",
+          "price": "28.000"
+        },
+        {
+          "name": "FLEUR ROSE",
+          "description": "",
+          "price": "27.000"
+        },
+        {
+          "name": "EXTRA BRUT",
+          "description": "",
+          "price": "29.000"
+        }
+      ]
+    }
+  ]
+}
