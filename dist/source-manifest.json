@@ -562,7 +562,7 @@
     },
     {
       "path": "hero-scroll.js",
-      "sha256": "6ce9780b5961b10132be921379fe5fae833a9532fab43ce2229f866f93d5a005"
+      "sha256": "5807bac3fa892ad1d320b55fd163323c75248124e5ee21a0cdb73b77f5bc13e9"
     },
     {
       "path": "index.html",
@@ -582,7 +582,7 @@
     },
     {
       "path": "styles.css",
-      "sha256": "48f14a369f70b6ab8cb505a09fb7ecdddbdc9f94c15eda80299c90807bfab856"
+      "sha256": "4237ab19b187bf0f8d7e092a28c73a184041351e928353c1f2f9253547c9b646"
     }
   ]
 }

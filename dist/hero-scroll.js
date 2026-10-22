@@ -10,8 +10,9 @@ export function setupHeroScroll(root) {
   const counter = scene.querySelector('.hero-gallery-count');
   const reduced = matchMedia('(prefers-reduced-motion: reduce)');
   let step = 400, top = 0, start = 0, frame = 0, active = -1;
-  const show = index => {
-    if (index === active) return;
+  let desired = -1, revision = 0, pauseTimer, finishPause;
+  const running = new Set();
+  const select = index => {
     active = index;
     scene.dataset.slide = String(index);
     slides.forEach((slide,i) => {
@@ -21,6 +22,58 @@ export function setupHeroScroll(root) {
     });
     counter.textContent = `${String(index+1).padStart(2,'0')} / ${String(slides.length).padStart(2,'0')}`;
   };
+  const cancelTransition = () => {
+    revision++;
+    // Freeze at the current opacity, so reversing the scroll never flashes a photo.
+    slides.forEach(slide => { slide.style.opacity = getComputedStyle(slide).opacity; });
+    running.forEach(animation => animation.cancel());
+    running.clear();
+    clearTimeout(pauseTimer);
+    finishPause?.();
+    finishPause = null;
+  };
+  const fade = (slide, from, to, duration) => {
+    slide.style.opacity = String(to);
+    const animation = slide.animate([{opacity:from},{opacity:to}], {
+      duration,easing:'cubic-bezier(.4, 0, .2, 1)'
+    });
+    running.add(animation);
+    return animation.finished.catch(() => {}).finally(() => running.delete(animation));
+  };
+  const show = index => {
+    if (index === desired) return;
+    desired = index;
+    cancelTransition();
+    if (active === -1 || reduced.matches) {
+      select(index);
+      slides.forEach((slide,i) => { slide.style.opacity = i===index?'1':'0'; });
+      scene.dataset.galleryPhase = 'still';
+      return;
+    }
+    const currentRevision = revision;
+    const visible = slides.map(slide => [slide, Number(slide.style.opacity)]).filter(([,opacity]) => opacity>0);
+    const transition = async () => {
+      scene.dataset.galleryPhase = 'leaving';
+      await Promise.all(visible.map(([slide,opacity]) => fade(slide,opacity,0,440)));
+      if (revision !== currentRevision) return;
+      scene.dataset.galleryPhase = 'background';
+      await new Promise(resolve => { finishPause=resolve; pauseTimer=setTimeout(resolve,100); });
+      if (revision !== currentRevision) return;
+      finishPause = null;
+      select(index);
+      scene.dataset.galleryPhase = 'entering';
+      await fade(slides[index],0,1,720);
+      if (revision === currentRevision) scene.dataset.galleryPhase = 'still';
+    };
+    transition();
+  };
+  const preferenceChanged = () => {
+    if (!reduced.matches) return;
+    const index = desired;
+    desired = -1;
+    show(index);
+  };
+  reduced.addEventListener('change',preferenceChanged);
   const update = () => {
     frame = 0;
     const progress = Math.max(0, window.scrollY - start + top);
@@ -50,6 +103,8 @@ export function setupHeroScroll(root) {
   slides.slice(1).forEach(slide => { const img=slide.querySelector('img'); img.decode?.().catch(()=>{}); });
   measure();
   cleanup = () => {
+    cancelTransition();
+    reduced.removeEventListener('change',preferenceChanged);
     resize.disconnect();
     window.removeEventListener('resize',measure);
     window.removeEventListener('scroll',schedule);

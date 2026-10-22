@@ -79,3 +79,8 @@ input,select{font-weight:400}input[type=date]:invalid{border-color:transparent}
 .hero-scroll .hero-slide .hero-photo{height:100%;transform:none;object-position:center 60%}
 @media(min-width:701px){.hero-scroll .hero-meta{top:42.5%}.hero-scroll .hero-meta:last-child{top:83.1%}.hero-scroll .hero-note{top:47.3%}.hero-scroll .hero-signature{top:58.8%}}
 @media(max-width:700px){.hero-scroll>.hero{height:max(750px,100svh);grid-template-rows:420px minmax(330px,1fr)}.hero-scroll .hero-gallery{height:100%}}
+
+/* Fade through the warm page background, with timing managed by hero-scroll.js. */
+.hero-gallery{background:var(--cream)}
+.hero-slide{transition:none}
+@media(max-width:700px){.hero-slide{transition:none}}
