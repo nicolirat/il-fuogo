@@ -33,3 +33,7 @@ Las fuentes Obviously y Vivaldi MN cargan desde el proyecto de Adobe Fonts `eun5
 El formulario prepara un mensaje para el WhatsApp del restaurante con nombre, correo, fecha, hora y personas. El visitante debe pulsar **Enviar** en WhatsApp y esperar la confirmación del restaurante. No hay envío automático ni almacenamiento de reservas en un servidor.
 
 El carrito guarda tallas y cantidades en el navegador y prepara el pedido por WhatsApp. No procesa pagos.
+
+## Movimiento
+
+`dist/motion.js` controla las apariciones al entrar en pantalla: revelado de los títulos SVG, textos por palabras, fotografías con opacidad y desenfoque breve y transiciones de página. Cada elemento se anima una vez por visita a la página. No intercepta el scroll ni el gesto táctil; respeta «reducir movimiento». En teléfonos se reduce el desenfoque y la duración.

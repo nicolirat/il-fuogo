@@ -2,7 +2,7 @@
   "files": [
     {
       "path": "app.js",
-      "sha256": "f6856156cb2f3e791aae608ac8f9c9fe9889ddfd684c08504262eb5c9ccfdd92"
+      "sha256": "1f51de4a007bc2b9179a38ab20e46124db83de62b9d1e3fb0db81f33d874d619"
     },
     {
       "path": "assets/026e1549-2512-430b-a7d5-d9bcc5fc2cdd.svg",
@@ -561,8 +561,12 @@
       "sha256": "48f3d269756b41fa322fe7c1cc8d22991ea3df4e2cd368dc62165dcce2c11541"
     },
     {
+      "path": "motion.js",
+      "sha256": "7ce569f687d60aeb1c5103fbd5ce6df227b8e2687405693e7d1dd07f72f71292"
+    },
+    {
       "path": "styles.css",
-      "sha256": "518bde84b3aff074a79743e169f011a11b9f5fa17e0201c1ad99ef4d4fd0d2b1"
+      "sha256": "918cd21871cbd1e8294d713fc1613237924c94f05b71ff4ec000ecbca4226ba6"
     }
   ]
 }
