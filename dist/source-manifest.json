@@ -2,7 +2,7 @@
   "files": [
     {
       "path": "app.js",
-      "sha256": "1e220c27689956d6aac6c2cab227cad6fd362bd34aea79767abbd7ac3d616c8e"
+      "sha256": "1a95b30b687b91bea667ed4070ad6721652f921fa2d81df03d838f5bd3ffa674"
     },
     {
       "path": "assets/026e1549-2512-430b-a7d5-d9bcc5fc2cdd.svg",
@@ -267,6 +267,14 @@
     {
       "path": "assets/brand/ilustraciones-visitanos-group.svg",
       "sha256": "68572e0bbadedee7935fa50f2a272fbd484e7e58f79959007cc79119c899cb87"
+    },
+    {
+      "path": "assets/brand/promo-aperol-texto.svg",
+      "sha256": "dc950548e3c69418f4d3e4ff5ff16ab93dfa6cca2aeffbe4217ed0cf49ad9609"
+    },
+    {
+      "path": "assets/brand/promo-maximo-tres.svg",
+      "sha256": "dd1bced422586e3a90b782720a5484bebda1d4507ea488160eb22026ede4a61e"
     },
     {
       "path": "assets/brand/texto-trazado-cada-plato.svg",
@@ -582,7 +590,7 @@
     },
     {
       "path": "styles.css",
-      "sha256": "656ff61d22a250e7db456ea4488896e719dfa3ef4ae90d9967da9f10f2489f9f"
+      "sha256": "e44f80b4395a601c0e6cbf545ffe38fe245f23dc862ed8dcacef40977e0680d7"
     }
   ]
 }

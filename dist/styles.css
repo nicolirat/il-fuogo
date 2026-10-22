@@ -88,3 +88,11 @@ input,select{font-weight:400}input[type=date]:invalid{border-color:transparent}
 .hero-gallery{background:var(--cream)}
 .hero-slide{transition:none}
 @media(max-width:700px){.hero-slide{transition:none}}
+
+/* Original vector artwork supplied for promotion captions. */
+.promos{height:auto}
+.promo-grid{row-gap:70px;margin-bottom:40px}
+.promo-card .promo-note{bottom:auto;top:100%;left:0;width:100%;max-width:326.5px;margin-top:8px;line-height:0}
+.promo-card .promo-note-limit{max-width:207.5px}
+.promo-note img{width:100%;height:auto}
+@media(max-width:700px){.promo-grid{row-gap:48px;margin-bottom:30px}.promo-card .promo-note-limit{width:64%}}
