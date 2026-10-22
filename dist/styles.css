@@ -58,3 +58,24 @@ input,select{font-weight:400}input[type=date]:invalid{border-color:transparent}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation:none!important;transition:none!important}}
 @media(max-width:700px) and (prefers-reduced-motion:no-preference){.nav.open{animation:nav-arrive .32s cubic-bezier(.22,1,.36,1)}}
 @keyframes nav-arrive{from{opacity:0;translate:0 -8px}to{opacity:1;translate:0 0}}
+/* The opening photographs advance over a finite, reversible native scroll track. */
+.hero-scroll{position:relative;background:var(--cream)}
+.hero-scroll>.hero{position:sticky;top:var(--hero-pin-top,0px)}
+.hero-gallery{position:relative;height:605px;min-width:0;overflow:hidden;background:var(--olive)}
+.hero-slide{position:absolute;inset:0;opacity:0;transition:opacity .6s cubic-bezier(.22,1,.36,1);pointer-events:none}
+.hero-slide.is-active{opacity:1}
+.hero-slide img{width:100%;object-fit:cover}
+.hero-interior{height:100%;object-position:center}
+.hero-gallery-controls{position:absolute;z-index:2;bottom:0;left:0;right:0;display:flex;align-items:center;gap:12px;padding:38px 22px 14px;background:linear-gradient(transparent,#0009);color:var(--cream);font-size:11px;letter-spacing:1px}
+.hero-gallery-count{font-variant-numeric:tabular-nums;white-space:nowrap}
+.hero-gallery-dots{display:flex;gap:0}.hero-gallery-dots button{display:grid;place-items:center;width:36px;height:40px;border:0;background:transparent;color:inherit;padding:0}.hero-gallery-dots span{display:block;width:6px;height:6px;border-radius:50%;background:currentColor;opacity:.45;transition:opacity .25s,transform .25s}.hero-gallery-dots button[aria-pressed=true] span{opacity:1;transform:scale(1.5)}
+.hero-gallery-skip{margin-left:auto;background:transparent;border:0;padding:12px 0 12px 10px;color:inherit;font:inherit;letter-spacing:0;min-height:44px}
+@media(min-width:701px) and (max-width:1200px){.hero-gallery{height:100%}}
+@media(max-width:700px){.hero-gallery{height:330px}.hero-gallery-controls{padding:28px 16px 8px;gap:8px}.hero-slide .hero-photo{height:330px;transform:none}.hero-slide{transition-duration:.4s}}
+@media(prefers-reduced-motion:reduce){.hero-slide,.hero-gallery-dots span{transition:none!important}}
+/* Fill the pinned viewport so the scroll track never exposes an empty strip. */
+.hero-scroll>.hero{height:max(605px,100svh)}
+.hero-scroll .hero-gallery{height:100%}
+.hero-scroll .hero-slide .hero-photo{height:100%;transform:none;object-position:center 60%}
+@media(min-width:701px){.hero-scroll .hero-meta{top:42.5%}.hero-scroll .hero-meta:last-child{top:83.1%}.hero-scroll .hero-note{top:47.3%}.hero-scroll .hero-signature{top:58.8%}}
+@media(max-width:700px){.hero-scroll>.hero{height:max(750px,100svh);grid-template-rows:420px minmax(330px,1fr)}.hero-scroll .hero-gallery{height:100%}}

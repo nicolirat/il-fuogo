@@ -37,3 +37,7 @@ El carrito guarda tallas y cantidades en el navegador y prepara el pedido por Wh
 ## Movimiento
 
 `dist/motion.js` controla las apariciones al entrar en pantalla: revelado de los títulos SVG, textos por palabras, fotografías con opacidad y desenfoque breve y transiciones de página. Cada elemento se anima una vez por visita a la página. No intercepta el scroll ni el gesto táctil; respeta «reducir movimiento». En teléfonos se reduce el desenfoque y la duración.
+
+## Secuencia de portada
+
+`dist/hero-scroll.js` mantiene la portada fija durante un tramo finito del desplazamiento y cambia las fotografías en este orden: fachada, horno, salón y bar. Al terminar, continúa la página. El recorrido es reversible, incluye selección por botones y acceso directo a la carta, y no bloquea eventos de rueda o tacto. Las tres fotos de `FOTOS/INICIO/SCROLL` están optimizadas en `dist/assets/hero-scroll/`.

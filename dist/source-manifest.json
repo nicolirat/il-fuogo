@@ -2,7 +2,7 @@
   "files": [
     {
       "path": "app.js",
-      "sha256": "1f51de4a007bc2b9179a38ab20e46124db83de62b9d1e3fb0db81f33d874d619"
+      "sha256": "c4a1f77ddb2dbcc6779aa70ffb1f4d13497ec380aee44ee929969a60032de98f"
     },
     {
       "path": "assets/026e1549-2512-430b-a7d5-d9bcc5fc2cdd.svg",
@@ -513,6 +513,18 @@
       "sha256": "1aea9bb7289729f2d598688cc742ba8df3d58c38ed9680499b1dd193d448ed11"
     },
     {
+      "path": "assets/hero-scroll/bar.webp",
+      "sha256": "eee75ab6bcf9972742d6802d72da805c8bad02a4302af8ac8822cccf3f90cc83"
+    },
+    {
+      "path": "assets/hero-scroll/horno.webp",
+      "sha256": "7eb6f29162424d7c118b16c1be0931091d30d608b4014e8e92def90c4f4e1f16"
+    },
+    {
+      "path": "assets/hero-scroll/salon.webp",
+      "sha256": "f476a97efe0a59d5b7beb250a9d44c7284a06d38a81c60173fd41e11246fb13b"
+    },
+    {
       "path": "assets/logo.svg",
       "sha256": "6f6e2be662201cbfae4e8ce68869f48f95df5185272c170a681ed35e381a1273"
     },
@@ -549,6 +561,10 @@
       "sha256": "03c72c3f2a9dc4da0f4717154c08a165a80069815bf0cc78291eb4ab230abe5a"
     },
     {
+      "path": "hero-scroll.js",
+      "sha256": "6ce9780b5961b10132be921379fe5fae833a9532fab43ce2229f866f93d5a005"
+    },
+    {
       "path": "index.html",
       "sha256": "962092b933f514a556d2a670780c947e7b2c632f276ba2ff40f94fa3ac6c0317"
     },
@@ -562,11 +578,11 @@
     },
     {
       "path": "motion.js",
-      "sha256": "7ce569f687d60aeb1c5103fbd5ce6df227b8e2687405693e7d1dd07f72f71292"
+      "sha256": "ab0dcceaa82d484198eedd8a46c02dd2a169efe566216a2803b02c6ac437edd6"
     },
     {
       "path": "styles.css",
-      "sha256": "918cd21871cbd1e8294d713fc1613237924c94f05b71ff4ec000ecbca4226ba6"
+      "sha256": "48f14a369f70b6ab8cb505a09fb7ecdddbdc9f94c15eda80299c90807bfab856"
     }
   ]
 }

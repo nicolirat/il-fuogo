@@ -13,7 +13,7 @@ export function setupMotion(root) {
   const add = (selector, kind) => root.querySelectorAll(selector).forEach(el => {
     if (!el.closest('.traced') || el.matches('.traced')) targets.set(el, kind);
   });
-  add('.dish-photo, .hero-photo, .carta-bg, .promo-card>img, .merch>img, .shop-hero>img, .shop-gallery>img, .product-row>img, .contact-hero>img, .venue-gallery>img', 'photo');
+  add('.dish-photo, .carta-bg, .promo-card>img, .merch>img, .shop-hero>img, .shop-gallery>img, .product-row>img, .contact-hero>img, .venue-gallery>img', 'photo');
   add('.eyebrow, .hero-meta, .daily-copy>div, .daily-copy>p:last-child, .dish-label, .promo-card .offer, .promo-card h3, .location h1, .reservation h2, .menu-item, .drink-block, .design-text', 'rise');
   add('.carta h2, .promos-heading h2, .merch h2, .shop-hero h1, .menu-section>h2', 'title');
   add('.traced, .hero-note, .hero-signature, .promo-card .day', 'ink');
