@@ -578,11 +578,11 @@
     },
     {
       "path": "motion.js",
-      "sha256": "ab0dcceaa82d484198eedd8a46c02dd2a169efe566216a2803b02c6ac437edd6"
+      "sha256": "db5b4e5948acfef93d263a6d49df53149996a8d96ae5e7ee5dc3344a5e0902f4"
     },
     {
       "path": "styles.css",
-      "sha256": "4237ab19b187bf0f8d7e092a28c73a184041351e928353c1f2f9253547c9b646"
+      "sha256": "656ff61d22a250e7db456ea4488896e719dfa3ef4ae90d9967da9f10f2489f9f"
     }
   ]
 }

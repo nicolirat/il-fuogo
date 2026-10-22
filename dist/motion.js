@@ -18,6 +18,7 @@ export function setupMotion(root) {
   add('.carta h2, .promos-heading h2, .merch h2, .shop-hero h1, .menu-section>h2', 'title');
   add('.traced, .hero-note, .hero-signature, .promo-card .day', 'ink');
   add('.carta p, .shop-hero p:last-child, .merch-copy>p:not(.eyebrow)', 'words');
+  add('.category-link', 'pulse');
   root.querySelectorAll('.design-art').forEach(el => {
     const src = el.querySelector('img')?.getAttribute('src') || '';
     if (/texto-trazado|textos-manuscrito/.test(src)) targets.set(el, 'ink');
@@ -32,7 +33,14 @@ export function setupMotion(root) {
     el.dataset.motionState = 'shown';
     const mobile = smallScreen.matches;
     let frames, duration;
-    if (kind === 'ink') {
+    if (kind === 'pulse') {
+      frames = [
+        {scale:'1',offset:0,easing:'cubic-bezier(.45, 0, .25, 1)'},
+        {scale:'1.045',offset:.45,easing:'cubic-bezier(.22, 1, .36, 1)'},
+        {scale:'1',offset:1}
+      ];
+      duration = 1150;
+    } else if (kind === 'ink') {
       frames = [{clipPath:'inset(0 100% 0 0)',opacity:.3},{clipPath:'inset(0 0% 0 0)',opacity:1}];
       duration = mobile ? 1000 : 1350;
     } else if (kind === 'photo') {
@@ -66,13 +74,15 @@ export function setupMotion(root) {
         node.replaceWith(fragment);
       });
     } else {
-      animate(el, frames, {duration,delay,easing:ease,fill:'backwards'});
+      animate(el, frames, {duration,delay,easing:kind === 'pulse' ? 'linear' : ease,fill:'backwards'});
     }
   };
   const observer = new IntersectionObserver(entries => {
     let order = 0;
     entries.filter(e => e.isIntersecting).sort((a,b) => a.boundingClientRect.top-b.boundingClientRect.top).forEach(entry => {
       const el = entry.target;
+      // Let most of each circle enter the screen before its one-time invitation.
+      if (targets.get(el) === 'pulse' && entry.intersectionRatio < .55) return;
       observer.unobserve(el);
       const delay = Math.min(order++*55,165);
       const images = el.matches('img') ? [el] : [...el.querySelectorAll('img')];
@@ -80,7 +90,7 @@ export function setupMotion(root) {
       const ready = Promise.all(images.map(img => img.decode?.().catch(() => {})));
       ready.then(() => play(el, targets.get(el), delay));
     });
-  }, {threshold:0,rootMargin:'0px 0px -5% 0px'});
+  }, {threshold:[0,.55],rootMargin:'0px 0px -5% 0px'});
   targets.forEach((kind, el) => {
     el.dataset.motion = kind;
     el.dataset.motionState = 'waiting';

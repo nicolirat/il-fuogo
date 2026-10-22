@@ -47,7 +47,11 @@ input,select{font-weight:400}input[type=date]:invalid{border-color:transparent}
 .button,.size,.cart-launch{transition:background-color .3s ease,filter .3s ease,transform .45s cubic-bezier(.22,1,.36,1)}
 .button:active,.size:active,.cart-launch:active{transform:scale(.97)}
 .dish-photo>img{transition:transform 1.1s cubic-bezier(.22,1,.36,1)}
-.category-link{transition:transform .7s cubic-bezier(.22,1,.36,1)}
+.category-link{transition:transform .7s cubic-bezier(.22,1,.36,1);transform-origin:center}
+.category-link:hover{transform:none}
+.category-link:focus-visible{transform:rotate(-3deg) scale(1.045)}
+@media(hover:hover) and (pointer:fine){.category-link:hover{transform:rotate(-3deg) scale(1.045)}}
+.category-link:active{transform:scale(.985)}
 .nav>a:not(.button){transition:color .3s ease,opacity .3s ease}
 #cart[open]{animation:cart-arrive .35s cubic-bezier(.22,1,.36,1)}
 #cart::backdrop{animation:backdrop-arrive .3s ease}
