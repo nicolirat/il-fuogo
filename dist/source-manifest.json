@@ -2,7 +2,7 @@
   "files": [
     {
       "path": "app.js",
-      "sha256": "da4ff102e2e7f7544b63402fb1d28cc94679acb35702b831c07b46b2fd8f9298"
+      "sha256": "2754fed955fb23cf1eeacc95e664f5390f2a96c3b19830298798372f19312905"
     },
     {
       "path": "assets/026e1549-2512-430b-a7d5-d9bcc5fc2cdd.svg",
@@ -283,6 +283,10 @@
     {
       "path": "assets/brand/texto-trazado-donde-el-fuego.svg",
       "sha256": "f718513e74c57c419a0d4c9cad00f5c3c6b6fff30dcdddffc96ee3b30a836463"
+    },
+    {
+      "path": "assets/brand/texto-trazado-donde-hay-fuego-mobile.svg",
+      "sha256": "1024fc8ac662b82b698e9b62a47b7787dfd913cc9677261082ccafd20495ae2f"
     },
     {
       "path": "assets/brand/texto-trazado-entre-italia-y-patagonia.svg",
@@ -582,7 +586,7 @@
     },
     {
       "path": "brand-assets.json",
-      "sha256": "03c72c3f2a9dc4da0f4717154c08a165a80069815bf0cc78291eb4ab230abe5a"
+      "sha256": "42d0d6b577111c307d27d83d84052a6eca9e0a08885076d16e215398c35ca065"
     },
     {
       "path": "carta-hover.js",
