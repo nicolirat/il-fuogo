@@ -2,7 +2,7 @@
   "files": [
     {
       "path": "app.js",
-      "sha256": "1a95b30b687b91bea667ed4070ad6721652f921fa2d81df03d838f5bd3ffa674"
+      "sha256": "2d5a084176ccb5ec0741f7d3c6df853793c1d4339cb5c52345d06ee552c1d46d"
     },
     {
       "path": "assets/026e1549-2512-430b-a7d5-d9bcc5fc2cdd.svg",
@@ -445,6 +445,22 @@
       "sha256": "40bdb1f69c5bd48678e955693a18af041a0af77bef05e47f8e0e6c94d95064db"
     },
     {
+      "path": "assets/carta/bebidas.webp",
+      "sha256": "1b86d00bd4a864286c61b2334d9803014bbacfab0e6cb7b675f99559a364eb2e"
+    },
+    {
+      "path": "assets/carta/compartir.webp",
+      "sha256": "02badabe8023bbcaad8870c4e0bc8a475f9716eff9b9d0d89a563f10785df1f3"
+    },
+    {
+      "path": "assets/carta/fondos.webp",
+      "sha256": "ed457cf55375d64b37fce881ae20c4c3accb365247bc201bb4a05b10ace9b2ad"
+    },
+    {
+      "path": "assets/carta/postres.webp",
+      "sha256": "72ad940e439c3034a4086c34978ee287ff77e6bc18d9e7e941d9507c7a7d709e"
+    },
+    {
       "path": "assets/cd257cab-bfcc-46a7-9775-ccf9c862e2c3.svg",
       "sha256": "0ecfe7bf0aaefa202fb02a0b7d381b21aa13e9257f4fd64e1510c94b1e71978c"
     },
@@ -569,6 +585,10 @@
       "sha256": "03c72c3f2a9dc4da0f4717154c08a165a80069815bf0cc78291eb4ab230abe5a"
     },
     {
+      "path": "carta-hover.js",
+      "sha256": "4b11be84882b2180419029578135179d0b3229e4cae92481926516e1c3caf9d9"
+    },
+    {
       "path": "hero-scroll.js",
       "sha256": "5807bac3fa892ad1d320b55fd163323c75248124e5ee21a0cdb73b77f5bc13e9"
     },
@@ -586,11 +606,11 @@
     },
     {
       "path": "motion.js",
-      "sha256": "db5b4e5948acfef93d263a6d49df53149996a8d96ae5e7ee5dc3344a5e0902f4"
+      "sha256": "a6728a3b95d45b535991a983f38f4236c6325f0f4ab72ead02f287fdbe23ea3e"
     },
     {
       "path": "styles.css",
-      "sha256": "e44f80b4395a601c0e6cbf545ffe38fe245f23dc862ed8dcacef40977e0680d7"
+      "sha256": "a7ea766d2dbf24c2de1589aec171afe72d53f5b9656a1e293889c050c4481093"
     }
   ]
 }
