@@ -107,3 +107,6 @@ a.promo-card{display:block;cursor:pointer;transform-origin:center;transition:tra
 a.promo-card:focus-visible{transform:translateY(-8px) scale(1.015)}
 a.promo-card:active{transform:translateY(-2px) scale(.99)}
 @media(prefers-reduced-motion:reduce){a.promo-card:hover,a.promo-card:focus-visible,a.promo-card:active{transform:none}}
+
+.reserve-hero{gap:12px}
+.reserve-hero>img{width:22px;height:15px;object-fit:contain;flex-shrink:0}
