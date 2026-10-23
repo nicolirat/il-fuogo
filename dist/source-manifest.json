@@ -586,7 +586,7 @@
     },
     {
       "path": "carta-hover.js",
-      "sha256": "4b11be84882b2180419029578135179d0b3229e4cae92481926516e1c3caf9d9"
+      "sha256": "0371c8010edde7fc3b43f6cf9e8002fcd9a6a4e12991a4cd8af3ad05538d42ff"
     },
     {
       "path": "hero-scroll.js",
@@ -610,7 +610,7 @@
     },
     {
       "path": "styles.css",
-      "sha256": "a7ea766d2dbf24c2de1589aec171afe72d53f5b9656a1e293889c050c4481093"
+      "sha256": "062afd127161e1bd956aad1c107d5748f4de06ea3730600e78983cb28a97dd48"
     }
   ]
 }

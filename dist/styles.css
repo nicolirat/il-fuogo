@@ -98,5 +98,5 @@ input,select{font-weight:400}input[type=date]:invalid{border-color:transparent}
 @media(max-width:700px){.promo-grid{row-gap:48px;margin-bottom:30px}.promo-card .promo-note-limit{width:64%}}
 
 /* Category photos share the existing monochrome treatment. */
-.carta{background:var(--olive)}
+.carta{background:var(--cream)}
 .carta-bg{inset:0;pointer-events:none}
