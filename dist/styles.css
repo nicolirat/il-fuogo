@@ -100,3 +100,10 @@ input,select{font-weight:400}input[type=date]:invalid{border-color:transparent}
 /* Category photos share the existing monochrome treatment. */
 .carta{background:var(--cream)}
 .carta-bg{inset:0;pointer-events:none}
+
+/* Promotion cards open the restaurant's highlighted stories. */
+a.promo-card{display:block;cursor:pointer;transform-origin:center;transition:transform .65s cubic-bezier(.22,1,.36,1)}
+@media(hover:hover) and (pointer:fine){a.promo-card:hover{transform:translateY(-8px) scale(1.015)}}
+a.promo-card:focus-visible{transform:translateY(-8px) scale(1.015)}
+a.promo-card:active{transform:translateY(-2px) scale(.99)}
+@media(prefers-reduced-motion:reduce){a.promo-card:hover,a.promo-card:focus-visible,a.promo-card:active{transform:none}}
